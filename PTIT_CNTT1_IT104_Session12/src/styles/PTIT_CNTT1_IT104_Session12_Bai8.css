@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #F7FAFC;
+}
+
+table{
+    width: 100%;
+    height: auto;
+}
+
+thead th{
+  padding: 20px;
+  color: #9FA5C0;
+  background-color: #F7FAFC;
+  
+}
+
+tbody{
+  background-color: white;
+  text-align: center;
+}
+
+tbody td{
+  padding: 20px;
+}
+
+button{
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #EAEDF0;
+}
+
+.delete{
+  background-color: red;
+  color: white;
+}
