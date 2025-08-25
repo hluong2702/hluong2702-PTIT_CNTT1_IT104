@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+}
+.form .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form h2{
+    text-align: center;
+}
+.form .input input {
+    padding: 5px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn button{
+    width: fit-content;
+}

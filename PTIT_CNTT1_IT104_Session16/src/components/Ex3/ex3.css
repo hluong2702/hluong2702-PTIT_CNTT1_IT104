@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Primary{
+    color: white;
+    background-color: blue;
+}
+
+.Secondary{
+    color: white;
+    background-color: #6C757D;
+}
+
+.Success{
+    color: white;
+    background-color: green;
+}
+
+.Warning{
+    color: white;
+    background-color: yellow;
+}
+
+.Danger{
+    color: white;
+    background-color: red;
+}
+
+.Infor{
+    color: white;
+    background-color: aqua;
+}
+
+.Light{
+    color: black;
+    background-color: white;
+}
+
+.Dark{
+    color: white;
+    background-color: black;
+}
+
+.Link{
+    background-color: black;
+}
