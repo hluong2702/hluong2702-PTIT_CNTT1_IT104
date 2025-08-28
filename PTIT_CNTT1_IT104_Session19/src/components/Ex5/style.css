@@ -1,0 +1,38 @@
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 200px;
+}
+
+.quote-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+  background-color: #218838;
+}
+
+.quote-text {
+  text-align: center;
+  font-size: 18px;
+  opacity: 1;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.quote-text p {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
