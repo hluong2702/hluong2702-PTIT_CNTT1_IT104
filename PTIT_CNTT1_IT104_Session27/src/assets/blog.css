@@ -1,0 +1,92 @@
+/* Layout */
+.layout {
+  display: flex;
+  height: 100vh;
+  background: #f9fafb;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: linear-gradient(180deg, #3b82f6, #9333ea);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.menu li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: auto;
+  opacity: 0.8;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #f9fafb;
+  overflow-y: auto;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-item a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.post-item a:hover {
+  text-decoration: underline;
+}
+
+.post-item p {
+  margin-top: 6px;
+  color: #555;
+}
