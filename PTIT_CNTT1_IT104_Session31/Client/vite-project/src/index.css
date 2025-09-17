@@ -1,0 +1,29 @@
+.find {
+    width: 200%;
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tbody tr td {
+    padding: 15px !important;
+    align-self: center;
+    align-content: center;
+}
+
+table thead tr th {
+    padding: 10px
+}
+
+.firstRow {
+    width: 3%;
+}
+
+.container {
+    width: 50% !important;
+}
